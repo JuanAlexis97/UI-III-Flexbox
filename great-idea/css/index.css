@@ -64,3 +64,233 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+body{
+	width: 90%;
+	margin: auto;
+	padding: 5px;
+}
+
+
+nav{
+	display: flex;
+}
+
+nav a{
+	margin: auto 15px;
+	display: flex;
+	
+}
+
+#navBox{
+ background-color: blue;
+ display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+  align-items: center;
+}
+
+.logo {
+	display: flex;
+	margin-left: 70px;
+	padding:0px;
+}
+
+/* great idea css */
+
+#topSection{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#circleCode{
+	display:flex;
+	width: 350px;
+	height: 350px;
+	margin:0px;
+	margin-left:10px;
+	margin-top: 50px;
+	padding:0px;
+}
+
+#tagLineBox{
+	font-size:60px;
+	text-align: center;
+	margin-top:100px;
+	padding:1%;
+	width: 48%;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+hr{
+	clear: both;
+}
+
+header{
+	padding: 0px;
+	margin: 0px;
+}
+
+#sectionBox1{
+	display: flex;
+	flex-direction: row;
+}
+
+#featuresBox{
+	display:flex;
+	width: 49%;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 10px;
+	flex-direction: column;
+	text-align: center;
+}
+
+#aboutBox{
+	display:flex;
+	width: 49%;
+	margin: 0px;
+	padding: 0px;
+	flex-direction: column;
+	text-align: center;
+}
+
+#sectionBox2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+#servicesBox{
+	display:flex;
+	width: 30%;
+	margin: 0px;
+	padding: 0px;
+	margin-left: 25px;
+	flex-direction: column;
+	text-align: center;
+}
+
+#productsBox{
+	display:flex;
+	width: 30%;
+	margin: 0px 2px;
+	padding: 0px;
+	flex-direction: column;
+	text-align: center;
+}
+
+#visionBox{
+	display:flex;
+	width: 30%;
+	margin: 0px;
+	padding: 0px;
+	flex-direction: column;
+	text-align: center;
+}
+
+.middle-img{
+	display:flex;
+	margin: 10px auto;
+
+}
+
+/*footer is both pages */
+
+footer{
+	text-align: center;
+}
+
+footer p{
+	margin-top: 5px;
+}
+
+/* services css */
+
+.services-header-img{
+	display: block;
+	margin: 50px auto;
+	width: 100%;
+}
+
+.servicesH2{
+	font-size: 30px;
+}
+
+#servicesServicesDiv{
+	margin-bottom: 30px;
+}
+
+#servicesContainer{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+/*row 1 starts */
+
+#dDBox{
+	border: 5px solid black;
+	border-radius: 15px;
+	width: 40%;
+}
+
+#uxBox{
+	border: 5px solid black;
+	border-radius: 15px;
+	width: 40%;
+}
+
+
+/*row 1 ends */
+
+/*row 2 starts */
+
+#dMBox{
+	border: 5px solid black;
+	border-radius: 15px;
+	width: 40%;
+}
+
+#wDBox{
+	border: 5px solid black;
+	border-radius: 15px;
+	width: 40%;
+}
+
+/*row 2 ends */
+
+/*row 3 starts */
+
+
+#iosBox{
+	border: 5px solid black;
+	border-radius: 15px;
+	width: 40%;
+}
+
+#aDBox{
+	border: 5px solid black;
+	border-radius: 15px;
+	width: 40%;
+}
+
+/*row 3 ends*/
+
+/* bottom of services page */
+
+#bottomSectionServices {
+	display: flex;
+	flex-direction: wrap;
+}
+
+
+
+
+
+
